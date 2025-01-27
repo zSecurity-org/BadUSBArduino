@@ -6,7 +6,7 @@
             "websiteURL": "https://zsecurity.org",
             "email": "info@zsecurity.org",
             "help": {
-                "online": "https://zsecurity.org/contact/"
+                "online": "https://zsecurity.org/contact"
             },
             "platforms": [
                 {
@@ -16,14 +16,14 @@
                     "category": "BadUSB",
                     "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/digistump-avr-1.6.7.zip",
                     "archiveFileName": "digistump-avr-1.6.7.zip",
-                    "checksum": "SHA-256:faf245b55c3b5311046ed52ef3bfbde2a4a29edc0794651bdca39ba481ad6d19",
-                    "size": "2466174",
+                    "checksum": "SHA-256:4ed1de9175a8eef8b0dd4999daf188dfdc216aeb586d4ed6b5b20198a8df8f44",
+                    "size": "2466169",
                     "help": {
                         "online": "https://github.com/zSecurity-org/BadUSBArduino/issues"
                     },
                     "boards": [
                         {
-                            "name": "BadUSB micro/C Cable (16.5mhz)"
+                            "name": "BadUSB Cable (16.5mhz)"
                         }
                     ],
                     "toolsDependencies": [
@@ -33,7 +33,7 @@
                             "version": "4.8.1-arduino5"
                         },
                         {
-                            "packager": "digistump",
+                            "packager": "zSecurity",
                             "name": "micronucleus",
                             "version": "2.0a4"
                         }
