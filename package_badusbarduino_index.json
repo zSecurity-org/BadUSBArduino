@@ -16,8 +16,8 @@
                     "category": "Contributed",
                     "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/digistump-avr-1.7.2.zip",
                     "archiveFileName": "digistump-avr-1.7.2.zip",
-                    "checksum": "SHA-256:84be36bb93761978db5b9a2e683373001d9822a514c416f0dc1acd14591eec53",
-                    "size": "2260241",
+                    "checksum": "SHA-256:552e6f20c634e1eb1749a8508318860f0e3ac14d15d4b060a8b0eede03a27377",
+                    "size": "2119603",
                     "help": {
                         "online": "https://github.com/zSecurity-org/BadUSBArduino/issues"
                     },
@@ -63,8 +63,8 @@
                             "host": "x86_64-mingw32",
                             "archiveFileName": "micronucleus-cli-2.5-x86_64-mingw32.zip",
                             "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-cli-2.5-x86_64-mingw32.zip",
-                            "checksum": "SHA-256:ceb4cbd34863bb0c78c4e32ae3fcfe7e67aac1b2adabfc3ca2da361a34e47a5d",
-                            "size": "1133565"
+                            "checksum": "SHA-256:b72a395659e4876f45f32d142fae6f9b85c8769f1d192a9d0476efa14fda730d",
+                            "size": "1085911"
                         }
                     ]
                 }
