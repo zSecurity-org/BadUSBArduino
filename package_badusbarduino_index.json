@@ -12,12 +12,12 @@
                 {
                     "name": "BadUSB Cable",
                     "architecture": "avr",
-                    "version": "1.6.7",
+                    "version": "1.7.2",
                     "category": "Contributed",
-                    "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/digistump-avr-1.6.7.zip",
-                    "archiveFileName": "digistump-avr-1.6.7.zip",
-                    "checksum": "SHA-256:179bc6651f676f8a598458a60da4f89fd5f40677856015843cb37adc7c7c4cb4",
-                    "size": "2405660",
+                    "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/digistump-avr-1.7.2.zip",
+                    "archiveFileName": "digistump-avr-1.7.2.zip",
+                    "checksum": "SHA-256:84be36bb93761978db5b9a2e683373001d9822a514c416f0dc1acd14591eec53",
+                    "size": "2260241",
                     "help": {
                         "online": "https://github.com/zSecurity-org/BadUSBArduino/issues"
                     },
@@ -30,12 +30,12 @@
                         {
                             "packager": "arduino",
                             "name": "avr-gcc",
-                            "version": "4.8.1-arduino5"
+                            "version": "7.3.0-atmel3.6.1-arduino7"
                         },
                         {
                             "packager": "digistump",
                             "name": "micronucleus",
-                            "version": "2.0a4"
+                            "version": "2.5"
                         }
                     ]
                 }
@@ -43,55 +43,28 @@
             "tools": [
                 {
                     "name": "micronucleus",
-                    "version": "2.0a4",
+                    "version": "2.5",
                     "systems": [
                         {
-                            "host": "x86_64-apple-darwin",
-                            "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
-                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-2.0a4-osx.tar.gz",
-                            "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
-                            "size": "51203"
-                        },
-                        {
-                            "host": "i686-mingw32",
-                            "archiveFileName": "micronucleus-2.0a4-win.zip",
-                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-2.0a4-win.zip",
-                            "checksum": "SHA-256:4fc8f411c106d7500021791bf1de5113a555306ae2003aa7c35d6d718d2904ae",
-                            "size": "1262198"
+                            "host": "x86_64-apple-darwin14",
+                            "archiveFileName": "micronucleus-2.5-x86_64-apple-darwin.tar.gz",
+                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-cli-2.5-x86_64-apple-darwin.tar.gz",
+                            "checksum": "SHA-256:89a44a5a8ad450abb55561b086e7f9af4f55f396f2e0f74930cd61abe69488ad",
+                            "size": "51241"
                         },
                         {
                             "host": "x86_64-linux-gnu",
-                            "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
-                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-2.0a4-linux64.tar.gz",
-                            "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
-                            "size": "22874"
-                        }
-                    ]
-                },
-                {
-                    "name": "arm-none-eabi-gcc",
-                    "version": "4.8.3-2014q1",
-                    "systems": [
-                        {
-                            "host": "i686-mingw32",
-                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
-                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
-                            "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
-                            "size": "84537449"
+                            "archiveFileName": "micronucleus-cli-2.5-x86_64-linux-gnu.tar.gz",
+                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-cli-2.5-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:8e87d4d4d456adae2d352452bc0da221c68f2f9dbd40bbef5fab7d47a208a3a0",
+                            "size": "437750"
                         },
                         {
-                            "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-                            "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
-                            "size": "52518522"
-                        },
-                        {
-                            "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-                            "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
-                            "size": "51395093"
+                            "host": "x86_64-mingw32",
+                            "archiveFileName": "micronucleus-cli-2.5-x86_64-mingw32.zip",
+                            "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-cli-2.5-x86_64-mingw32.zip",
+                            "checksum": "SHA-256:ceb4cbd34863bb0c78c4e32ae3fcfe7e67aac1b2adabfc3ca2da361a34e47a5d",
+                            "size": "1133565"
                         }
                     ]
                 }
