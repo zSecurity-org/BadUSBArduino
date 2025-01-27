@@ -63,8 +63,8 @@
                             "host": "x86_64-mingw32",
                             "archiveFileName": "micronucleus-cli-2.5-x86_64-mingw32.zip",
                             "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-cli-2.5-x86_64-mingw32.zip",
-                            "checksum": "SHA-256:b72a395659e4876f45f32d142fae6f9b85c8769f1d192a9d0476efa14fda730d",
-                            "size": "1085911"
+                            "checksum": "SHA-256:b82447f210e44db1c0fe11cebb047f9c0f9ce09ae40080932058a4ca8ece6529",
+                            "size": "1085909"
                         }
                     ]
                 }
