@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "BadUSB Cable",
+            "name": "digistump",
             "maintainer": "zSecurity",
             "websiteURL": "https://zsecurity.org",
             "email": "info@zsecurity.org",
@@ -10,20 +10,20 @@
             },
             "platforms": [
                 {
-                    "name": "zSecurity BadUSB Cable",
+                    "name": "BadUSB Cable",
                     "architecture": "avr",
                     "version": "1.6.7",
-                    "category": "BadUSB",
+                    "category": "Contributed",
                     "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/digistump-avr-1.6.7.zip",
                     "archiveFileName": "digistump-avr-1.6.7.zip",
-                    "checksum": "SHA-256:4ed1de9175a8eef8b0dd4999daf188dfdc216aeb586d4ed6b5b20198a8df8f44",
-                    "size": "2466169",
+                    "checksum": "SHA-256:179bc6651f676f8a598458a60da4f89fd5f40677856015843cb37adc7c7c4cb4",
+                    "size": "2405660",
                     "help": {
                         "online": "https://github.com/zSecurity-org/BadUSBArduino/issues"
                     },
                     "boards": [
                         {
-                            "name": "BadUSB Cable (16.5mhz)"
+                            "name": "BadUSB Cable"
                         }
                     ],
                     "toolsDependencies": [
@@ -33,7 +33,7 @@
                             "version": "4.8.1-arduino5"
                         },
                         {
-                            "packager": "zSecurity",
+                            "packager": "digistump",
                             "name": "micronucleus",
                             "version": "2.0a4"
                         }
@@ -56,8 +56,8 @@
                             "host": "i686-mingw32",
                             "archiveFileName": "micronucleus-2.0a4-win.zip",
                             "url": "https://github.com/zSecurity-org/BadUSBArduino/raw/refs/heads/main/micronucleus-2.0a4-win.zip",
-                            "checksum": "SHA-256:a04774da43a66a11fe77307b1d203d81c1e98ece93d4be67aed44ffbd979f897",
-                            "size": "1262202"
+                            "checksum": "SHA-256:4fc8f411c106d7500021791bf1de5113a555306ae2003aa7c35d6d718d2904ae",
+                            "size": "1262198"
                         },
                         {
                             "host": "x86_64-linux-gnu",
