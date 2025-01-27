@@ -74,8 +74,8 @@
                             "host": "i686-mingw32",
                             "archiveFileName": "micronucleus-2.0a4-win.zip",
                             "url": "https://github.com/zSecurity-org/DigistumpArduino/raw/refs/heads/main/micronucleus-2.0a4-win.zip",
-                            "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
-                            "size": "1712005"
+                            "checksum": "SHA-256:a04774da43a66a11fe77307b1d203d81c1e98ece93d4be67aed44ffbd979f897",
+                            "size": "1262202"
                         },
                         {
                             "host": "x86_64-linux-gnu",
